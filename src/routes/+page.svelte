@@ -14,71 +14,71 @@
 
   // Data
   const heroImages = [
-    "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=600&auto=format&fit=crop", // Climbing
-    "https://images.unsplash.com/photo-1544967082-d9d25d867d66?q=80&w=600&auto=format&fit=crop", // Bench/View
-    "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=600&auto=format&fit=crop", // Hiking/Mountain
-    "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?q=80&w=600&auto=format&fit=crop", // Running
-    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?q=80&w=600&auto=format&fit=crop", // Snow
-    "https://images.unsplash.com/photo-1596329606822-790d946d9e29?q=80&w=600&auto=format&fit=crop"  // Park
+    "/generated/image-australian-primary-school-students-at-a--1765580623212-0.webp", // Swimming carnival
+    "/generated/image-australian-high-school-students-competin-1765580626604-1.webp", // Athletics track
+    "/generated/image-australian-school-students-playing-crick-1765580629413-2.webp", // Cricket
+    "/generated/image-australian-school-netball-team-celebrati-1765580632166-3.webp", // Netball
+    "/generated/image-australian-school-cross-country-running--1765580634715-4.webp", // Cross-country
+    "/generated/image-australian-school-athletics-carnival-div-1765580637360-5.webp"  // Long jump
   ];
 
   const benefitCards = [
     {
-      title: "All your data. One place.",
-      desc: "Holo takes into account your lifestyle and habits, your past results, and connects your wearable data.",
-      image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop"
+      title: "Celebrate every achievement.",
+      desc: "From participation to championship glory, recognize students with badges, trophies, and awards that build their personal athlete portfolio.",
+      image: "/generated/image-young-australian-students-celebrating-wi-1765580639961-6.webp"
     },
     {
-      title: "Better control over your performance.",
-      desc: "Start thriving by tracking your daily strain, recovery and sleep.",
-      image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=800&auto=format&fit=crop"
+      title: "Real-time competition management.",
+      desc: "Auto-generate fixtures, track live results, calculate ladders automatically. Set up your carnival in 5 minutes, not 5 hours.",
+      image: "/generated/image-australian-pe-teacher-or-sports-coordina-1765580642396-7.webp"
     },
     {
-      title: "Proactive care.",
-      desc: "Health is not just the absence of illness but the engagement with vitality everyday.",
-      image: "https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&w=800&auto=format&fit=crop"
+      title: "Keep everyone connected.",
+      desc: "Instant notifications for coaches, students, and parents. Over 1 million notifications delivered and 500,000+ messages sent.",
+      image: "/generated/image-australian-school-students-checking-resu-1765580645008-8.webp"
     }
   ];
 
   const steps = [
     {
       step: 1,
-      title: "Chose the plan that fits you better.",
-      desc: "Two options available. Get the Core plan with 110+ biomarkers to access the most advance lab test or choose the Starter plan to test 60+ essential biomarkers.",
+      title: "Choose your carnival template.",
+      desc: "Select from pre-built templates for swimming carnivals, athletics meets, house competitions, or create your own custom format. Set up in 5 minutes.",
       image: "plan"
     },
     {
       step: 2,
-      title: "Schedule your appointment.",
-      desc: "Choose the most convenient lab location for you and follow the instructions before the test.",
+      title: "Add teams and athletes.",
+      desc: "Import your student lists, create house teams, and assign athletes to events. Bulk upload or add individually—whatever works for your school.",
       image: "schedule"
     },
     {
       step: 3,
-      title: "Receive first results.",
-      desc: "Within 24 hours directly on your app. When all your results are available, our medical team will start working on your Clinician Notes.",
+      title: "Auto-generate fixtures.",
+      desc: "Let Sports Meister automatically create your competition schedule, heats, and groups. Customize as needed with our intuitive drag-and-drop interface.",
       image: "results"
     },
     {
       step: 4,
-      title: "Your Clinician Notes are ready.",
-      desc: "Receive your Clinician Notes and personalized Action Plan within 7 days from your results.",
+      title: "Track results in real-time.",
+      desc: "Enter scores and times as events happen. Ladders update automatically, students see their results instantly, and parents get live notifications.",
       image: "notes"
     },
     {
       step: 5,
-      title: "Start improving.",
-      desc: "Continue your health journey together with Holo AI and your Action Plan. Recheck in 6 months with the Follow-up test.",
+      title: "Award achievements and celebrate.",
+      desc: "Students earn badges, build their trophy cabinet, and create a personal athlete portfolio. Track their journey from first game to championship glory.",
       image: "improve"
     }
   ];
 
   const faqs = [
-    "What does a Holo membership include?",
-    "Is Holo for you?",
-    "What more does Holo offer than my regular doctor or insurance?",
-    "I recently got tested. Should I wait to join Holo?",
-    "Which biomarkers are included in the Holo membership?"
+    "How quickly can we set up our first carnival?",
+    "What sports and competition formats are supported?",
+    "Can parents and students access the platform?",
+    "Is our school data secure and private?",
+    "What happens to student achievement data when they graduate?"
   ];
 </script>
 
@@ -88,13 +88,13 @@
   <!-- Hero Section -->
   <section class="pt-32 pb-16 md:pt-40 md:pb-24 px-6 text-center max-w-7xl mx-auto">
     <h1 class="text-4xl md:text-6xl lg:text-7xl font-medium tracking-tight text-[#1A1A1A] mb-6 leading-[1.1]">
-      Your companion<br />for lifelong vitality.
+      Unified athlete achievement<br />tracking for Australian schools.
     </h1>
     <p class="text-gray-600 text-lg md:text-xl max-w-3xl mx-auto mb-10 leading-relaxed font-light">
-      Test 110+ biomarkers every year, track all your health in a single place, and get insights from top doctors. All starting at just €199.
+      Real-time competition management and gamified recognition system. Trusted by 200+ Australian schools managing 75,000+ matches. Set up in 5 minutes.
     </p>
     <button class="bg-[#1A1A1A] text-white px-8 py-3.5 rounded-sm font-medium hover:bg-black transition-colors">
-      Start testing
+      Start Free Trial
     </button>
   </section>
 
@@ -103,7 +103,7 @@
     <div class="flex gap-4 px-6 min-w-max">
       {#each heroImages as img, i}
         <div class="relative w-48 h-64 md:w-64 md:h-80 rounded-3xl overflow-hidden flex-shrink-0">
-          <img src={img} alt="Lifestyle" class="w-full h-full object-cover" />
+          <img src={img} alt="Australian school sports" class="w-full h-full object-cover" />
         </div>
       {/each}
     </div>
@@ -121,25 +121,36 @@
           <div class="w-full h-full bg-white pt-10 px-4 overflow-hidden flex flex-col">
             <!-- Mock UI -->
             <div class="flex justify-between items-center mb-6">
-              <div class="w-8 h-8 rounded-full bg-gray-200"></div>
-              <div class="w-8 h-8 rounded-full bg-gray-100"></div>
+              <div class="w-8 h-8 rounded-full bg-primary-200 flex items-center justify-center text-xs font-bold">SM</div>
+              <div class="w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center">
+                <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
+              </div>
             </div>
             <div class="mb-6">
-              <div class="text-xs text-gray-500 mb-1">30 June</div>
-              <div class="text-2xl font-bold">1</div>
+              <div class="text-xs text-gray-500 mb-1">Athletics Carnival</div>
+              <div class="text-xl font-bold">Live Results</div>
             </div>
             <div class="space-y-3">
               <div class="h-20 bg-gray-50 rounded-xl w-full border border-gray-100 p-3">
-                <div class="w-1/2 h-2 bg-gray-200 rounded mb-2"></div>
-                <div class="w-full h-1 bg-green-400 rounded"></div>
+                <div class="flex justify-between items-center mb-2">
+                  <div class="text-[10px] font-medium">100m Sprint - Heat 1</div>
+                  <div class="text-[8px] text-green-600 font-medium">LIVE</div>
+                </div>
+                <div class="w-full h-1.5 bg-green-400 rounded"></div>
               </div>
               <div class="h-20 bg-gray-50 rounded-xl w-full border border-gray-100 p-3">
-                <div class="w-1/2 h-2 bg-gray-200 rounded mb-2"></div>
-                <div class="w-full h-1 bg-orange-400 rounded"></div>
+                <div class="flex justify-between items-center mb-2">
+                  <div class="text-[10px] font-medium">Long Jump - Finals</div>
+                  <div class="text-[8px] text-gray-400">Starting soon</div>
+                </div>
+                <div class="w-2/3 h-1.5 bg-primary-400 rounded"></div>
               </div>
               <div class="h-20 bg-gray-50 rounded-xl w-full border border-gray-100 p-3">
-                <div class="w-1/2 h-2 bg-gray-200 rounded mb-2"></div>
-                <div class="w-full h-1 bg-blue-400 rounded"></div>
+                <div class="flex justify-between items-center mb-2">
+                  <div class="text-[10px] font-medium">Relay 4x100m</div>
+                  <div class="text-[8px] text-gray-400">Scheduled</div>
+                </div>
+                <div class="w-1/3 h-1.5 bg-gray-300 rounded"></div>
               </div>
             </div>
           </div>
@@ -149,13 +160,13 @@
       <!-- Content -->
       <div class="w-full md:w-1/2 space-y-8">
         <h2 class="text-3xl md:text-4xl font-medium leading-tight text-[#1A1A1A]">
-          Your health at a glance.<br />
-          See your daily Strain, Recovery and Sleep goals. Explore your biomarkers, understand what they mean, and access your Personalized Report, including your Action Plan created after your test.
+          Every achievement tracked.<br />
+          Live competition results, automatic ladder calculations, and gamified badges. Students, coaches, and parents stay connected with real-time notifications and a complete athlete portfolio.
         </h2>
         <div class="flex items-center justify-between pt-4">
           <button class="flex items-center gap-2 text-[#1A1A1A] font-medium hover:opacity-70 transition-opacity">
             {@html PlayCircle}
-            Watch video
+            Watch demo
           </button>
           <div class="flex gap-2">
             <button class="p-2 rounded-full border border-gray-200 hover:bg-gray-50 text-gray-400 hover:text-black transition-colors">
@@ -171,13 +182,13 @@
   </section>
 
   <!-- Value Proposition -->
-  <section class="py-16 px-6 max-w-7xl mx-auto">
+  <section class="py-16 px-6 max-w-7xl mx-auto" id="features">
     <div class="grid md:grid-cols-2 gap-12 items-start">
       <h2 class="text-3xl md:text-5xl font-medium tracking-tight text-[#1A1A1A] leading-tight">
-        You deserve to live fully, longer, and better.
+        Every student deserves recognition for their achievements.
       </h2>
       <p class="text-gray-600 text-lg font-light leading-relaxed">
-        Your health is more than numbers, it's your story, your future. Taking care of it today means giving yourself the chance to enjoy more years with strength, clarity, and vitality. We're here to help you protect what truly matters: a healthier, longer life.
+        From their first carnival to championship glory, Sports Meister tracks every milestone. We help schools celebrate participation, effort, and excellence—building confidence and creating memories that last a lifetime. Because every achievement matters.
       </p>
     </div>
   </section>
@@ -201,13 +212,13 @@
   <!-- Testimonial -->
   <section class="py-24 px-6 max-w-4xl mx-auto text-center">
     <blockquote class="text-2xl md:text-3xl font-medium leading-relaxed text-[#1A1A1A] mb-8">
-      "I've always wanted a tool like Holo. It gives people real power over their health in a way that's simple and intuitive. I love how deeply personalized it is, making it easier than ever to understand your body and make smart choices"
+      "Sports Meister has transformed how we run our school carnivals. What used to take me hours of spreadsheet work now happens in minutes. The kids love seeing their achievements build up, and parents actually know what's happening in real-time. It's a game-changer."
     </blockquote>
     <div class="flex flex-col items-center gap-3">
-      <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=100&auto=format&fit=crop" alt="Doctor" class="w-12 h-12 rounded-full object-cover" />
+      <img src="/generated/image-australian-school-sports-coordinator-pro-1765580647464-9.webp" alt="Sports Coordinator" class="w-12 h-12 rounded-full object-cover" />
       <div class="text-center">
-        <div class="font-medium text-sm">Dra. Cécile Merad</div>
-        <div class="text-gray-500 text-xs">Functional Doctor</div>
+        <div class="font-medium text-sm">Sarah Mitchell</div>
+        <div class="text-gray-500 text-xs">Sports Coordinator, Melbourne Grammar</div>
       </div>
     </div>
   </section>
@@ -216,16 +227,16 @@
   <section class="py-12 px-6 max-w-7xl mx-auto border-t border-gray-200">
     <div class="grid md:grid-cols-3 gap-8 text-center md:text-left">
       <div>
-        <h3 class="text-xl font-medium mb-2">15 minutes lab visit.</h3>
-        <p class="text-gray-500 text-sm font-light">In and out. Take your blood and urine test. One minute with the nurse. Quick and simple.</p>
+        <h3 class="text-xl font-medium mb-2">200+ Australian schools.</h3>
+        <p class="text-gray-500 text-sm font-light">Trusted by primary and secondary schools across Australia for their sports carnivals and competitions.</p>
       </div>
       <div>
-        <h3 class="text-xl font-medium mb-2">24 hours first results.</h3>
-        <p class="text-gray-500 text-sm font-light">Your lab test data, fast. Complete results in five business days.</p>
+        <h3 class="text-xl font-medium mb-2">50,000+ active athletes.</h3>
+        <p class="text-gray-500 text-sm font-light">Students building their personal athlete portfolios from first game to championship glory.</p>
       </div>
       <div>
-        <h3 class="text-xl font-medium mb-2">Clinician Notes in 1 week.</h3>
-        <p class="text-gray-500 text-sm font-light">From data to a clear Action Plan to guide you along your health path.</p>
+        <h3 class="text-xl font-medium mb-2">75,000+ matches managed.</h3>
+        <p class="text-gray-500 text-sm font-light">Real-time results, automatic ladders, and 25,000+ achievement awards earned by students.</p>
       </div>
     </div>
   </section>
@@ -234,7 +245,7 @@
   <section class="py-20 px-6 max-w-7xl mx-auto">
     <div class="mb-16 max-w-md">
       <h2 class="text-4xl font-medium mb-6">How it works.</h2>
-      <p class="text-gray-600 font-light">With two lab tests a year, daily tracking from your phone and wearables, and guidance from real doctors, Holo helps you understand what's going on inside so you can make smarter, healthier choices.</p>
+      <p class="text-gray-600 font-light">From carnival setup to championship celebrations, Sports Meister handles the admin so you can focus on what matters—supporting your students. Set up in 5 minutes, manage in real-time, celebrate forever.</p>
     </div>
 
     <div class="space-y-6">
@@ -255,53 +266,98 @@
                 <!-- Dynamic Content based on step -->
                 {#if step.image === 'plan'}
                   <div class="space-y-3 mt-4">
-                    <div class="p-3 border rounded-xl border-black bg-gray-50">
-                      <div class="font-bold text-xs mb-1">Optimal ID</div>
-                      <div class="h-1 w-full bg-gray-200 rounded"></div>
+                    <div class="p-3 border-2 rounded-xl border-primary-500 bg-primary-50">
+                      <div class="font-bold text-xs mb-1">🏊 Swimming Carnival</div>
+                      <div class="text-[8px] text-gray-500">Pre-built template</div>
                     </div>
                     <div class="p-3 border rounded-xl border-gray-200">
-                       <div class="font-bold text-xs mb-1 text-gray-400">Essential</div>
-                       <div class="h-1 w-full bg-gray-100 rounded"></div>
+                       <div class="font-bold text-xs mb-1 text-gray-600">🏃 Athletics Meet</div>
+                       <div class="text-[8px] text-gray-400">Pre-built template</div>
+                    </div>
+                    <div class="p-3 border rounded-xl border-gray-200">
+                       <div class="font-bold text-xs mb-1 text-gray-600">🏏 House Cricket</div>
+                       <div class="text-[8px] text-gray-400">Pre-built template</div>
                     </div>
                   </div>
                 {:else if step.image === 'schedule'}
                    <div class="mt-4">
-                     <div class="text-center font-bold mb-4">Appointment</div>
-                     <div class="bg-gray-100 h-32 rounded-xl mb-3 flex items-center justify-center text-xs text-gray-400">Map View</div>
-                     <button class="w-full bg-black text-white text-xs py-2 rounded-lg">Confirm</button>
+                     <div class="text-center font-bold text-sm mb-4">Add Athletes</div>
+                     <div class="space-y-2 mb-3">
+                       <div class="bg-gray-100 p-2 rounded-lg flex items-center gap-2">
+                         <div class="w-6 h-6 rounded-full bg-red-400"></div>
+                         <div class="text-[10px] font-medium">Red House - 24 athletes</div>
+                       </div>
+                       <div class="bg-gray-100 p-2 rounded-lg flex items-center gap-2">
+                         <div class="w-6 h-6 rounded-full bg-blue-400"></div>
+                         <div class="text-[10px] font-medium">Blue House - 22 athletes</div>
+                       </div>
+                       <div class="bg-gray-100 p-2 rounded-lg flex items-center gap-2">
+                         <div class="w-6 h-6 rounded-full bg-green-400"></div>
+                         <div class="text-[10px] font-medium">Green House - 26 athletes</div>
+                       </div>
+                     </div>
+                     <button class="w-full bg-black text-white text-xs py-2 rounded-lg">Import from CSV</button>
                    </div>
                 {:else if step.image === 'results'}
-                   <div class="bg-black h-full -mx-3 -mt-8 pt-10 px-3 text-white">
-                      <div class="text-center mb-6">
-                        <div class="w-12 h-12 bg-gray-700 rounded-full mx-auto mb-2"></div>
-                        <div class="text-sm font-bold">Grace Parker</div>
+                   <div class="bg-white h-full -mx-3 -mt-8 pt-10 px-3">
+                      <div class="text-center mb-4">
+                        <div class="text-xs font-bold mb-2">Auto-Generated Fixtures</div>
                       </div>
                       <div class="space-y-2">
-                         <div class="bg-gray-800 p-2 rounded-lg h-10"></div>
-                         <div class="bg-gray-800 p-2 rounded-lg h-10"></div>
+                         <div class="bg-gray-100 p-2 rounded-lg">
+                           <div class="text-[9px] font-medium mb-1">Heat 1 - 9:00 AM</div>
+                           <div class="text-[8px] text-gray-500">Lanes 1-6 assigned</div>
+                         </div>
+                         <div class="bg-gray-100 p-2 rounded-lg">
+                           <div class="text-[9px] font-medium mb-1">Heat 2 - 9:15 AM</div>
+                           <div class="text-[8px] text-gray-500">Lanes 1-6 assigned</div>
+                         </div>
+                         <div class="bg-gray-100 p-2 rounded-lg">
+                           <div class="text-[9px] font-medium mb-1">Heat 3 - 9:30 AM</div>
+                           <div class="text-[8px] text-gray-500">Lanes 1-6 assigned</div>
+                         </div>
                       </div>
+                      <button class="w-full bg-primary-500 text-white text-xs py-2 rounded-lg mt-3">Customize Schedule</button>
                    </div>
                 {:else if step.image === 'notes'}
                    <div class="mt-4 space-y-3">
-                      <div class="font-bold text-sm">Health Status</div>
-                      <div class="text-[10px] text-gray-500 leading-relaxed">
-                        You usually make smart choices for your health through regular exercise...
+                      <div class="font-bold text-sm">Live Results</div>
+                      <div class="bg-green-50 border border-green-200 p-2 rounded-lg">
+                        <div class="flex justify-between items-center mb-1">
+                          <div class="text-[10px] font-bold">🥇 1st Place</div>
+                          <div class="text-[9px] text-green-700">12.4s</div>
+                        </div>
+                        <div class="text-[9px] text-gray-600">Emma Wilson - Red House</div>
                       </div>
-                      <div class="bg-gray-50 p-2 rounded text-[10px] text-gray-600">
-                        Since your diet lacks enough fruits and vegetables...
+                      <div class="bg-gray-50 border border-gray-200 p-2 rounded-lg">
+                        <div class="flex justify-between items-center mb-1">
+                          <div class="text-[10px] font-bold">🥈 2nd Place</div>
+                          <div class="text-[9px] text-gray-600">12.6s</div>
+                        </div>
+                        <div class="text-[9px] text-gray-600">Jake Chen - Blue House</div>
                       </div>
+                      <div class="text-[8px] text-green-600 text-center mt-2">✓ Parents notified</div>
                    </div>
                 {:else}
                    <div class="mt-4 flex flex-col h-full">
-                      <div class="flex-1">
-                        <div class="bg-gray-100 p-2 rounded-lg rounded-tl-none text-[10px] mb-2 max-w-[80%]">
-                          What benefits can I get by bringing ApoB closer to the optimal range?
+                      <div class="flex-1 space-y-3">
+                        <div class="text-center mb-3">
+                          <div class="text-xs font-bold">Achievement Unlocked!</div>
                         </div>
-                        <div class="bg-blue-50 p-2 rounded-lg rounded-tr-none text-[10px] ml-auto max-w-[80%]">
-                          By lowering ApoB, you reduce the number of cholesterol-carrying particles...
+                        <div class="bg-primary-50 border-2 border-primary-300 p-3 rounded-xl text-center">
+                          <div class="text-2xl mb-1">🏆</div>
+                          <div class="text-[10px] font-bold">Sprint Champion</div>
+                          <div class="text-[8px] text-gray-500">Won 3 races</div>
+                        </div>
+                        <div class="bg-gray-50 p-2 rounded-lg">
+                          <div class="text-[9px] font-medium mb-1">Trophy Cabinet</div>
+                          <div class="flex gap-1 justify-center">
+                            <div class="text-lg">🥇</div>
+                            <div class="text-lg">🏅</div>
+                            <div class="text-lg">⭐</div>
+                          </div>
                         </div>
                       </div>
-                      <div class="h-10 border-t mt-2"></div>
                    </div>
                 {/if}
              </div>
@@ -314,19 +370,17 @@
   <!-- Dark Cards Section -->
   <section class="py-8 px-6 max-w-7xl mx-auto">
     <div class="grid md:grid-cols-2 gap-6">
-      <!-- Map Card -->
+      <!-- Reliability Card -->
       <div class="bg-[#111] rounded-[40px] p-8 md:p-12 text-white min-h-[500px] flex flex-col relative overflow-hidden">
         <div class="relative z-10">
-          <h3 class="text-sm font-medium text-gray-400 mb-2">A five star experience.</h3>
-          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">We partner exclusively with renowned labs.</h2>
+          <h3 class="text-sm font-medium text-gray-400 mb-2">Built for Australian schools.</h3>
+          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">SSL secure, GDPR compliant, and WCAG 2.1 AA accessible.</h2>
         </div>
-        <!-- Abstract Map Visual -->
-        <div class="absolute inset-0 flex items-center justify-center opacity-30 mt-20">
-           <svg viewBox="0 0 200 100" class="w-full h-full text-gray-500 fill-current">
-              <!-- Simplified dot map representation -->
-              {#each Array(100) as _, i}
-                <circle cx={Math.random() * 200} cy={Math.random() * 100} r={Math.random() * 1.5} />
-              {/each}
+        <!-- Abstract Shield Visual -->
+        <div class="absolute inset-0 flex items-center justify-center opacity-20 mt-20">
+           <svg viewBox="0 0 200 200" class="w-64 h-64 text-gray-500 stroke-current fill-none">
+              <path d="M100 20 L160 50 L160 100 Q160 140 100 180 Q40 140 40 100 L40 50 Z" stroke-width="2"/>
+              <path d="M70 100 L90 120 L130 70" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
            </svg>
         </div>
       </div>
@@ -334,13 +388,13 @@
       <!-- Privacy Card -->
       <div class="bg-[#111] rounded-[40px] p-8 md:p-12 text-white min-h-[500px] flex flex-col relative overflow-hidden">
         <div class="relative z-10">
-          <h3 class="text-sm font-medium text-gray-400 mb-2">Your data is safe with us.</h3>
-          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">We're built to protect your privacy by default.</h2>
+          <h3 class="text-sm font-medium text-gray-400 mb-2">Student data protection.</h3>
+          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">Privacy-first design for K-12 student information.</h2>
         </div>
         <!-- Blurred Text Visual -->
         <div class="absolute inset-0 flex items-center justify-center mt-20 overflow-hidden">
            <div class="text-4xl font-mono text-gray-600 opacity-20 blur-sm select-none break-all p-8">
-             Elizab|%b$9yT Willi|I7m/e Magn|&5a! Trigly|?Pm_Lw
+             Stud3nt|%D@ta Sch00l|R3c0rds Ach!ev3|Pr!vacy
            </div>
         </div>
       </div>
@@ -348,73 +402,76 @@
   </section>
 
   <!-- Pricing Section -->
-  <section class="py-24 px-6 max-w-7xl mx-auto" id="join">
+  <section class="py-24 px-6 max-w-7xl mx-auto" id="pricing">
     <div class="text-center mb-16">
-      <h2 class="text-3xl md:text-4xl font-medium mb-4">Preventive healthcare for everyone.</h2>
-      <p class="text-gray-500 font-light max-w-2xl mx-auto">Top-tier testing, real-time tracking, and dedicated clinician guidance—made affordable. Because investing in prevention is the most important investing of your life.</p>
+      <h2 class="text-3xl md:text-4xl font-medium mb-4">Simple pricing for Australian schools.</h2>
+      <p class="text-gray-500 font-light max-w-2xl mx-auto">Start with a free trial. No credit card required. Set up your first carnival in 5 minutes and see why 200+ schools trust Sports Meister.</p>
     </div>
 
     <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-      <!-- Starter Plan -->
+      <!-- Free Trial -->
       <div class="bg-white rounded-[32px] p-8 flex flex-col">
-        <div class="w-12 h-12 bg-gray-100 rounded-full mb-6"></div>
-        <h3 class="text-2xl font-medium mb-1">Starter</h3>
-        <p class="text-sm text-gray-500 mb-6">Begin your health journey.</p>
+        <div class="w-12 h-12 bg-gray-100 rounded-full mb-6 flex items-center justify-center">
+          <span class="text-2xl">🎯</span>
+        </div>
+        <h3 class="text-2xl font-medium mb-1">Free Trial</h3>
+        <p class="text-sm text-gray-500 mb-6">Try Sports Meister risk-free.</p>
         <div class="mb-8">
-          <span class="text-2xl font-medium">€199</span>
-          <span class="text-gray-400 text-sm">/yr</span>
-          <div class="text-[10px] text-pink-500 mt-1 font-medium">Pay in installments with Klarna.</div>
+          <span class="text-2xl font-medium">$0</span>
+          <span class="text-gray-400 text-sm">/30 days</span>
+          <div class="text-[10px] text-primary-600 mt-1 font-medium">No credit card required.</div>
         </div>
         <ul class="space-y-4 mb-8 flex-1">
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Two tests a year covering 60+ essential biomarkers.
+            Full access to all features for 30 days.
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Measure your Biological Age and Aging Rate with every test.
+            Pre-built carnival templates for quick setup.
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Clinician Notes and personalized Action Plan to guide your health.
+            Up to 100 athletes and unlimited events.
           </li>
         </ul>
-        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Join now</button>
+        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Start Free Trial</button>
       </div>
 
-      <!-- Core Plan -->
+      <!-- School Plan -->
       <div class="bg-white rounded-[32px] p-8 flex flex-col relative overflow-hidden">
         <div class="absolute top-0 right-0 bg-[#FFF8E1] px-4 py-1 rounded-bl-xl text-xs font-medium text-orange-800">Most Popular</div>
-        <div class="w-12 h-12 bg-orange-100 rounded-full mb-6"></div>
-        <h3 class="text-2xl font-medium mb-1">Core</h3>
-        <p class="text-sm text-gray-500 mb-6">The most advanced longevity membership.</p>
+        <div class="w-12 h-12 bg-primary-100 rounded-full mb-6 flex items-center justify-center">
+          <span class="text-2xl">🏆</span>
+        </div>
+        <h3 class="text-2xl font-medium mb-1">School Plan</h3>
+        <p class="text-sm text-gray-500 mb-6">For growing school sports programs.</p>
         <div class="mb-8">
-          <span class="text-2xl font-medium">€399</span>
-          <span class="text-gray-400 text-sm">/yr</span>
-          <div class="text-[10px] text-pink-500 mt-1 font-medium">Pay in installments with Klarna.</div>
+          <span class="text-2xl font-medium">Contact us</span>
+          <div class="text-[10px] text-primary-600 mt-1 font-medium">Custom pricing for your school.</div>
         </div>
         <ul class="space-y-4 mb-8 flex-1">
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Full Core test of 110+ biomarkers plus a Follow-up with 60+ biomarkers to track change.
+            Unlimited athletes, events, and competitions.
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            First test includes an extended Hormonal and Vitamins panel for deeper insights.
+            Multi-year athlete portfolio tracking.
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Clinician Notes and a personalized Action Plan built on your most complete lab testing profile.
+            Priority support and onboarding assistance.
           </li>
         </ul>
-        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Join now</button>
+        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Contact Sales</button>
       </div>
     </div>
   </section>
 
   <!-- FAQ -->
   <section class="py-20 px-6 max-w-3xl mx-auto" id="faq">
-    <h2 class="text-3xl font-medium text-center mb-12">Your questions answered.</h2>
+    <h2 class="text-3xl font-medium text-center mb-12">Frequently asked questions.</h2>
     <div class="space-y-4">
       {#each faqs as question}
         <div class="border-b border-gray-200 py-4 flex justify-between items-center cursor-pointer group hover:bg-gray-50/50 transition-colors px-2">
@@ -425,7 +482,7 @@
     </div>
     <div class="mt-12 text-center">
       <button class="border border-gray-300 px-6 py-3 rounded-sm text-xs font-medium hover:bg-gray-50 transition-colors">
-        View all Frequently Asked Questions
+        View All FAQs
       </button>
     </div>
   </section>
@@ -435,18 +492,22 @@
     <div class="max-w-7xl mx-auto">
       <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-16">
         <div class="flex items-center gap-2">
-           <div class="relative w-5 h-5 flex items-center justify-center">
-              <div class="absolute w-full h-[1.5px] bg-black rotate-45"></div>
-              <div class="absolute w-full h-[1.5px] bg-black -rotate-45"></div>
-              <div class="absolute w-[1.5px] h-full bg-black"></div>
-              <div class="absolute w-full h-[1.5px] bg-black"></div>
+           <div class="w-7 h-7 text-[#1A1A1A]">
+             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path
+                 fill-rule="evenodd"
+                 clip-rule="evenodd"
+                 d="M5.0473 17.8386L5.69453 18.9586V18.9601H18.3003L18.9314 17.84H6.34063L6.82626 16.9993H19.4308L20.078 15.8807H7.47237L7.95715 15.0414H16.0358L16.0366 15.0429L16.0375 15.0414H20.5603L20.5612 15.0429L21.2084 13.9228L21.208 13.922L21.2084 13.9213H21.2075L14.9084 3.00677L14.9106 3.00296L14.9062 3.00296L13.6177 3.00296L5.0473 17.8386ZM14.261 4.12767L13.7751 4.96887L18.9438 13.9213H19.9139L14.261 4.12767ZM13.1286 6.08808L12.6467 6.9225L16.6749 13.9006L16.6634 13.9213H17.6511L13.1286 6.08808ZM11.9999 8.04225L8.60411 13.9213H15.3899L11.9999 8.04225ZM6.99833 3.30006C7.33866 3.10343 7.7248 2.99993 8.11786 3L2.30033 13.0776C2.10357 12.7371 2 12.3508 2 11.9575C2 11.5643 2.10357 11.178 2.30033 10.8375L6.17916 4.12006C6.37543 3.77951 6.65798 3.49669 6.99833 3.30006ZM9.08869 3H10.3816L3.43223 15.0384L2.785 13.9184L9.08869 3ZM11.3509 3H12.6424L4.56262 16.9963L3.91691 15.8777L11.3509 3ZM21.7064 13.0598C21.8988 12.7254 22 12.3463 22 11.9605C22 11.5746 21.8988 11.1956 21.7064 10.8611L17.8039 4.10233C17.6108 3.7681 17.3331 3.49057 16.9987 3.2976C16.6644 3.10463 16.2852 3.00302 15.8992 3.00296H15.8741L21.6931 13.082L21.7064 13.0598ZM17.7995 19.7994H6.17916C6.37472 20.1412 6.65692 20.4253 6.99728 20.6232C7.33763 20.8212 7.72414 20.9258 8.11786 20.9269H15.8829C16.2737 20.9261 16.6572 20.8212 16.994 20.6231C17.3309 20.4249 17.6089 20.1406 17.7995 19.7994Z"
+                 fill="currentColor"
+               />
+             </svg>
            </div>
-           <span class="font-bold text-lg tracking-widest">HOLO</span>
+           <span class="font-bold text-lg tracking-tight">Sports Meister</span>
         </div>
         
         <nav class="flex flex-wrap gap-6 md:gap-8 text-xs font-medium text-gray-600">
-          <a href="#" class="hover:text-black">Biomarkers</a>
-          <a href="#" class="hover:text-black">FAQ</a>
+          <a href="#features" class="hover:text-black">Features</a>
+          <a href="#faq" class="hover:text-black">FAQ</a>
           <a href="#" class="hover:text-black">Blog</a>
           <a href="#" class="hover:text-black">Terms & Conditions</a>
           <a href="#" class="hover:text-black">Privacy Policy</a>
@@ -460,9 +521,10 @@
       </div>
 
       <div class="text-[10px] text-gray-400 leading-relaxed max-w-5xl">
-        <p class="mb-2">Holo is a technology company, not a laboratory or medical provider. All lab and medical services are provided by independent third parties, who set their own pricing. While Holo facilitates access to certain providers, it does not recommend or refer healthcare providers. Holo does not offer medical advice, lab services, diagnosis, treatment, or medical opinions. All services do not replace medical care or consultations with a licensed provider. If you have questions about lab results, consult a primary care physician or other licensed provider. All information provided by Holo is for general informational purposes only.</p>
-        <p>Holo's membership pricing includes prepaid access to certain third-party lab services. Some home and lab draw fees may apply. Additional payments beyond standard membership pricing. For more details, see our Terms & Conditions.</p>
-        <p class="mt-2">By providing your phone number, you agree to receive text messages from Holo. Message and data rates may apply. Message frequency varies.</p>
+        <p class="mb-4 text-sm font-medium text-gray-600">Made with ❤️ in Australia for Australian Schools</p>
+        <p class="mb-2">Sports Meister is a sports management technology platform designed specifically for Australian K-12 schools. All student data is stored securely and handled in accordance with Australian privacy laws and educational data protection requirements. Schools maintain full ownership and control of their data. Sports Meister provides technology services only and does not provide educational advice or replace school administrative procedures.</p>
+        <p class="mb-2">Pricing is based on school size and usage requirements. Free trial includes full feature access for 30 days with no credit card required. For custom pricing and enterprise features, contact our sales team. All prices are in Australian dollars unless otherwise stated.</p>
+        <p class="mt-2">By using Sports Meister, schools agree to our Terms of Service and Privacy Policy. For questions about data handling, security, or compliance, please contact our support team.</p>
       </div>
     </div>
   </footer>
